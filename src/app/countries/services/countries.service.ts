@@ -6,9 +6,9 @@ import { Country } from '../interfaces/country';
 @Injectable({
   providedIn: 'root'
 })
-export class CoutriesService {
+export class CountriesService {
 
-  private apiUrl: string = 'https://restcountries.com/v3.1/';
+  private apiUrl: string = 'https://restcountries.com/v3.1';
 
   constructor(private httpClient: HttpClient) { }
 
